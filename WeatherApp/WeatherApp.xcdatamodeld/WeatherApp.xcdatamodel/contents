@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CitiesSelected" representedClassName="CitiesSelected" syncable="YES" codeGenerationType="class">
+        <attribute name="digits" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LOCATIONTRACKING" representedClassName="LOCATIONTRACKING" syncable="YES" codeGenerationType="class">
+        <attribute name="allowed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="LOCATIONTRACKING" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="CitiesSelected" positionX="-54" positionY="0" width="128" height="28"/>
+    </elements>
 </model>
